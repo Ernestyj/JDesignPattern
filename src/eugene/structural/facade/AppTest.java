@@ -1,4 +1,4 @@
-package eugene.structural.adapter;
+package eugene.structural.facade;
 
 import org.junit.Test;
 
