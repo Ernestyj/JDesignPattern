@@ -1,4 +1,4 @@
-package eugene.behavioral.proxy;
+package eugene.behavioral.chainofresponsibility;
 
 public class App {
     public App(){

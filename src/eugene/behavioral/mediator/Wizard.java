@@ -9,6 +9,6 @@ public class Wizard extends PartyMemberBase {
 
     @Override
     public String toString() {
-        return null;
+        return "Wizard";
     }
 }

@@ -9,6 +9,6 @@ public class Hunter extends PartyMemberBase {
 
     @Override
     public String toString() {
-        return null;
+        return "Hunter";
     }
 }

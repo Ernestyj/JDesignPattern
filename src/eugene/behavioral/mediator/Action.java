@@ -4,12 +4,26 @@ package eugene.behavioral.mediator;
  * Created by Jian on 2015/7/29.
  */
 public enum Action {
-    HUNT, TALE, GOLD, ENEMY;
+    HUNT("hunted a rabbit", "arrives for dinner"),
+    TALE("tells a tale", "comes to listen"),
+    GOLD("found gold", "takes his share of the gold"),
+    ENEMY("spotted enemies", "runs for cover"),
+    NONE("", "");
 
-    Action(){}
+    private String title;
+    private String description;
+
+    Action(String title, String description) {
+        this.title = title;
+        this.description = description;
+    }
+
+    public String getDescription() {
+        return description;
+    }
 
     @Override
     public String toString() {
-        return super.toString();
+        return title;
     }
 }

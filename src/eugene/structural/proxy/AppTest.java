@@ -1,4 +1,4 @@
-package eugene.behavioral.proxy;
+package eugene.structural.proxy;
 
 import org.junit.Test;
 

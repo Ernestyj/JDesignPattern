@@ -9,6 +9,6 @@ public class Rogue extends PartyMemberBase {
 
     @Override
     public String toString() {
-        return null;
+        return "Rogue";
     }
 }
