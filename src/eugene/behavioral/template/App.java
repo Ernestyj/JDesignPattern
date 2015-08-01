@@ -1,4 +1,4 @@
-package eugene;
+package eugene.behavioral.template;
 
 public class App {
     public static void main(String[] args){

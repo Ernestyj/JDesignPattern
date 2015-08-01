@@ -17,9 +17,7 @@ public class Request {
 
     @Override
     public String toString() {
-        return "Request{" +
-                "requestDescription='" + requestDescription + '\'' +
-                '}';
+        return getRequestDescription();
     }
 
     public String getRequestDescription() {
@@ -31,7 +29,7 @@ public class Request {
     }
 
     public Request(RequestType requestType, String requestDescription) {
-
+        this.requestType = requestType;
         this.requestDescription = requestDescription;
     }
 }
