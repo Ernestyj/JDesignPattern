@@ -1,4 +1,4 @@
-package eugene.behavioral.template;
+package eugene.behavioral.templatemethod;
 
 import org.junit.Test;
 
